@@ -14,6 +14,7 @@ resources:
   - ./kubernetes-dashboard.yaml
   - ./metallb.yaml
   - ./metrics-server.yaml
+  - ./nvidia-device-plugin.yaml
   - ./prometheus-community.yaml
   - ./rook-ceph.yaml
   - ./stakater.yaml
