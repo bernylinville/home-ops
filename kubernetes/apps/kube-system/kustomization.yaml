@@ -6,5 +6,5 @@ resources:
   - ./cilium/ks.yaml
   - ./local-path-provisioner/ks.yaml
   - ./metrics-server/ks.yaml
-  - ./nvidia-device-plugin/ks.yaml
+  # - ./nvidia-device-plugin/ks.yaml
   - ./reloader/ks.yaml
