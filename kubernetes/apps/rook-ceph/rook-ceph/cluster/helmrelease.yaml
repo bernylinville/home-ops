@@ -65,15 +65,15 @@ spec:
         config:
           osdsPerDevice: "1"
         nodes:
-          - name: k8s-b550m-worker-0
+          - name: b550m
             devices:
-              - name: /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi1
-          - name: k8s-x470-worker-1
+              - name: /dev/disk/by-id/ata-TOSHIBA-TR150_56AB60YCKBZU
+          - name: x470
             devices:
-              - name: /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi1
-          - name: k8s-y9000p-worker-2
+              - name: /dev/disk/by-id/nvme-Fanxiang_S500PRO_2TB_FXS500PRO231511425
+          - name: y9000p
             devices:
-              - name: /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi1
+              - name: /dev/disk/by-id/nvme-Fanxiang_S790_4TB_FXS790232120588
     cephBlockPools:
       - name: ceph-blockpool
         spec:
