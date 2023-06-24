@@ -31,4 +31,4 @@ spec:
       tag: v0.14.0
     # runtimeClassName: nvidia
     nodeSelector:
-      feature.node.kubernetes.io/custom-nvidia-gpu: "true"
+      node-role.kubernetes.io/nvidia-gpu: "true"
